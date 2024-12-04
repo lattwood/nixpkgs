@@ -24,7 +24,7 @@
 
 buildPythonPackage rec {
   pname = "samsungtvws";
-  version = "2.7.0";
+  version = "2.7.1";
   format = "setuptools";
   disabled = isPy27;
 
@@ -32,7 +32,7 @@ buildPythonPackage rec {
     owner = "xchwarze";
     repo = "samsung-tv-ws-api";
     rev = "refs/tags/v${version}";
-    hash = "sha256-HwpshNwWZQ5dIS7IaJJ5VaE1bERcX79B/Mu4ISkyDJo=";
+    hash = "sha256-qHdcqnVXs4aAgpvXM2nzV47wkpOtPOFqdHkgsT64qwk=";
   };
 
   propagatedBuildInputs = [
